@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DatabaseOperations</string>
+    <string name="search_users">Search users</string>
+    <string name="menu_view">View Users</string>
+</resources>

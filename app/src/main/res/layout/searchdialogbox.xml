@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LinearLayout xmlns:android='http://schemas.android.com/apk/res/android'
+    android:layout_width='fill_parent'
+    android:layout_height='fill_parent'
+    android:orientation='vertical'
+    android:padding='10sp' >
+
+    <EditText
+        android:id='@+id/search_email'
+        android:layout_width='fill_parent'
+        android:layout_height='wrap_content'
+        android:hint='Email'
+        android:singleLine='true' >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id='@+id/search_name'
+        android:layout_width='match_parent'
+        android:layout_height='wrap_content'
+        android:hint='Name'
+        android:ems='10'
+         >
+    </EditText>
+    <EditText
+        android:id='@+id/search_id'
+        android:layout_width='match_parent'
+        android:layout_height='wrap_content'
+        android:hint='ID'
+        android:ems='10'
+        >
+    </EditText>
+
+
+</LinearLayout>
